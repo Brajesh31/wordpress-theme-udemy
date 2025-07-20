@@ -1,0 +1,247 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {
+                    "slug": "u-white",
+                    "color": "rgb(255,255,255)",
+                    "name": "Udemy White"
+                },
+                {
+                    "slug": "u-gray-100",
+                    "color": "rgb(243 244 246)",
+                    "name": "Udemy Gray 100"
+                },
+                {
+                    "slug": "u-gray-200",
+                    "color": "rgb(229 231 235)",
+                    "name": "Udemy Gray 200"
+                },
+                {
+                    "slug": "u-gray-300",
+                    "color": "rgb(209 213 219)",
+                    "name": "Udemy Gray 300"
+                },
+                {
+                    "slug": "u-gray-400",
+                    "color": "rgb(156 163 175)",
+                    "name": "Udemy Gray 400"
+                },
+                {
+                    "slug": "u-gray-500",
+                    "color": "rgb(107 114 128)",
+                    "name": "Udemy Gray 500"
+                },
+                {
+                    "slug": "u-gray-600",
+                    "color": "rgb(75 85 99)",
+                    "name": "Udemy Gray 600"
+                },
+                {
+                    "slug": "u-gray-700",
+                    "color": "rgb(55 65 81)",
+                    "name": "Udemy Gray 700"
+                },
+                {
+                    "slug": "u-gray-800",
+                    "color": "rgb(31 41 55)",
+                    "name": "Udemy Gray 800"
+                },
+                {
+                    "slug": "u-gray-900",
+                    "color": "rgb(17 24 39)",
+                    "name": "Udemy Gray 900"
+                },
+                {
+                    "slug": "u-primary",
+                    "color": "rgb(239 68 68)",
+                    "name": "Udemy Primary"
+                },
+                {
+                    "slug": "u-accent",
+                    "color": "rgb(67 56 202)",
+                    "name": "Udemy Accent"
+                },
+                {
+                    "slug": "u-success",
+                    "color": "rgb(52 211 153)",
+                    "name": "Udemy Success"
+                },
+                {
+                    "slug": "u-info",
+                    "color": "rgb(96 165 250)",
+                    "name": "Udemy Info"
+                },
+                {
+                    "slug": "u-warning",
+                    "color": "rgb(251 146 60)",
+                    "name": "Udemy Warning"
+                },
+                {
+                    "slug": "u-danger",
+                    "color": "rgb(236 72 153)",
+                    "name": "Udemy Danger"
+                }
+            ],
+            "background": true,
+            "text": true,
+            "link": true,
+            "custom": true,
+            "duotone": [
+                {
+                    "slug": "u-pink-sunset",
+                    "colors": ["#11245e", "#dc4379"],
+                    "name": "Udemy Pink Sunset"
+                }
+            ],
+            "defaultGradients": false,
+            "gradients": [
+                {
+                    "slug": "u-summer-dog",
+                    "name": "Udemy Summer Dog",
+                    "gradient": "linear-gradient(#a8ff78, #78ffd6)"
+                }
+            ]
+        },
+        "blocks": {
+            "core/site-title": {
+                "color": {
+                    "defaultPalette": true,
+                    "palette": [
+                        {
+                            "slug": "u-primary",
+                            "color": "#ef4444",
+                            "name": "Udemy Primary"
+                        }
+                    ],
+                    "link": true,
+                    "custom": false,
+                    "gradients": [],
+                    "customGradient": false
+                },
+                "typography": {
+                    "fontFamilies": [
+                        {
+                            "fontFamily": "Pacifico, sans-serif",
+                            "slug": "u-pacifico",
+                            "name": "Udemy Pacifico"
+                        }
+                    ]
+                }
+            },
+            "core/cover": {
+                "color": {
+                    "duotone": [],
+                    "customDuotone": false
+                }
+            },
+            "core/preformatted": {
+                "typography": {
+                    "fontSizes": [],
+                    "customFontSize": false
+                }
+            }
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Rubik, sans-serif",
+                    "slug": "u-rubik",
+                    "name": "Udemy Rubik"
+                }
+            ],
+            "fontSizes": [
+                { "slug": "small", "size": "0.75rem", "name": "Small" },
+                { "slug": "medium", "size": "1.25rem", "name": "Medium" },
+                { "slug": "large", "size": "2.25rem", "name": "Large" },
+                { "slug": "x-large", "size": "3rem", "name": "Extra Large" },
+                { "slug": "gigantic", "size": "3.75rem", "name": "Gigantic" }
+            ],
+            "lineHeight": true,
+            "dropCap": true,
+            "fontWeight": true,
+            "fontStyle": true,
+            "textTransform": true,
+            "letterSpacing": true,
+            "textDecoration": true
+        },
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1100px"
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "units": ["px", "rem", "vh", "vw", "%"],
+            "blockGap": true
+        }
+    },
+    "styles": {
+        "color": {
+            "text": "var(--wp--preset--color--u-gray-700)",
+            "background": "var(--wp--preset--color--u-white)"
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--u-primary)"
+                }
+            }
+        },
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "gradient": "var(--wp--preset--gradient--u-summer-dog)"
+                }
+            },
+            "core/pullquote": {
+                "border": {
+                    "width": "2px",
+                    "radius": "10px",
+                    "style": "solid",
+                    "color": "var(--wp--preset--color--u-primary)"
+                }
+            },
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--u-pacifico)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--u-rubik)",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": "inherit",
+            "textDecoration": "none",
+            "textTransform": "none"
+        },
+        "spacing": {
+            "margin": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "padding": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "blockGap": "4rem"
+        }
+    }
+}
